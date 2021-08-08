@@ -1,0 +1,18 @@
+#data
+#variables
+#name
+h=int(input("Enter the hour:"))
+m=int(input("Enter the minute:"))
+
+if m>44:
+    m=m-45
+elif h>0:
+    h=h-1
+    m=15+m
+else:
+    m=15+m
+    h=23
+
+
+
+print(h,m)
