@@ -1,0 +1,7 @@
+year=int(input("연도"))
+if year%4==0 and year%100 !=0 or year % 400== 0:
+    print('{}년은 윤년이다.' .format(year))
+else :
+    print('{}년은 평년이다.'.format(year))
+
+print('{}년은 {}년입니다.'.format(year, '윤' if year % 4 == 0 and year % 100 != 0 or year % 400 == 0 ekse '평'))
